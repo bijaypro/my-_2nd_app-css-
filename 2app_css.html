@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar{
+            background-color: rgb(118, 118, 244);
+            border-radius: 40px;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 30px 25px;
+        } 
+        .navbar ul{
+            overflow: auto;
+            
+        }
+        .navbar li a{
+            padding:3px 3px;
+            text-decoration: none;
+
+        }
+        .serch{
+            float: right;
+            color: wheat;
+            padding: 30px 55px;
+        }
+        .navbar input{
+            border: 2px solid rgb(132, 132, 236);
+            border-radius: 6px;
+        }
+        .form input{
+            margin: 10px 20px;
+            padding: 10px 20px;
+        }
+        .button{
+            color:rgb(69, 69, 192);
+            border-radius: 7px;
+            border: 3px solid blue;
+        }
+        .iframe{
+            /* float: right;
+            flex-direction: row; */
+            position:absolute;
+            top: 130px;
+            left:605px
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+           
+            <ul>
+              
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <div class="serch">
+                    <input type="text" placeholder="Search ">
+
+                </div>
+            </ul>
+            
+            
+        </nav>
+    
+    </header>
+    <div >
+        <form class="form">
+            <div >
+                Name:     <input type="text" placeholder="Name">
+            </div>
+            <div>
+                Email:    <input type="text" placeholder="Email">
+            </div>
+            <div>
+               Contact no:<input type="number" placeholder="Contact No">
+            </div>
+            <div>
+                <textarea cols="70" rows="7" placeholder="Enter Your Address"></textarea>
+            </div>
+            <div>
+                <input type="submit" class="button"/>
+            </div>
+            
+        </form>
+    </div>
+    <div>
+        <iframe  class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1497620584064!2d77.69901635039172!3d12.962267090817141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11e6982ac5df%3A0xb52fcb3ad37e0ec3!2sPro%20Stack%20Academy!5e0!3m2!1sen!2sin!4v1670010795677!5m2!1sen!2sin" width="900" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+    </div>
+</body>
+</html>
+      

@@ -1,0 +1,33 @@
+.navbar{
+
+    background-color: rgb(112, 112, 166);
+    border-radius: 30px;
+}
+.navbar_ul{
+    overflow:auto;
+}
+.navbar_li{
+
+    float:left;
+    list-style:non;
+    padding:3px 20px
+}
+.navbar_li_a {
+
+    padding: 3px 3px;
+    text-decoration:non;
+    color: wheat;
+}
+.serch{
+    float:right;
+    color: wheat;
+    padding: 12px 75px;
+}
+.navbar_input{
+    border:2px solid black;
+    border-radius: 4px;
+    padding
+}
+.float_right{
+    float:right;
+}
